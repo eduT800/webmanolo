@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: 'Raleway', sans-serif;
+	background: #ffdad0;
+	color: #300000;
+}
+
+.portada h1{
+	font-size: 18px;
+	text-align: center;
+}
+
+h2{
+	font-size: 18px;
+	text-align: center;
+	color: MediumVioletRed;
+}
+
+ .peque{
+ 	font-size: 12px;
+ }
+
+.portada p{
+	font-size: 18px;
+	text-align: center;
+}
+
+.logo{
+	max-width: 600px;
+	margin: auto;
+	margin-top: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.logo img{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.logo2{
+	max-width: 600px;
+	margin: auto;
+	margin-top: 6px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.logo2 img{
+	display: block;
+	margin: auto;
+	max-width: 95%;
+}
+
+.portada{
+	margin-top: 25px;
+	line-height: 38px;
+}
+
+.boton{
+	background: #300000;
+	color: white;
+	margin: auto;
+	margin-top: 25px;
+	width: 90px;
+	height: 45px;
+	text-align: center;
+	border-radius: 50px;
+	line-height: 45px;
+	transition: .4s;
+}
+
+.boton:hover{
+	background: coral;
+	transform: scale(1.2);
+	font-weight: bolder;
+}
+
+.boton a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+.boton a:hover{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	color: #300000;
+}
+
+
+/*-----------------------------  Página MENU general -------------------------*/
+
+.menu{
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 16px;
+	max-width: 600px;
+}
+
+.menuIn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 290px;
+	height: 48px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	border: 2px solid /*#730000*/silver;
+	background: #300000;
+	color: #ffe251;
+	font-weight: bolder;
+	border-radius: 12px;
+	box-shadow: 0px 0px 12px #300000;
+	transition: .3s;
+}
+
+.menuIn a{
+	text-decoration: none;
+	color: #ffe251;
+	padding: 10px 40px;
+}
+
+.menuIn:hover{
+	transform: scale(1.1);
+	background: coral;
+	color: #300000;
+}
+
+.menuIn a:hover{
+	color: #300000;
+}
+
+#tapas, #ensaladas, #bocadillos, #bocadillosEspeciales, #hamburguesa, #combinados, #especiales{
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 28px 2fr 1fr 1fr;
+	margin-top: 15px;
+	align-items: center;
+	justify-content: center;
+	/*grid-gap: 6px;*/
+	/*height: 22px;*/
+	/*padding-top: 6px;
+	padding-bottom: 6px;*/
+	height: auto;
+}
+/*
+.nombre{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+*/
+.precio{
+	text-align: right;
+	padding-right: 8px;
+}
+.alergenos img{
+	width: 25px;
+	/*padding-left: 8px;*/
+}
+
+.patatas{
+	margin-top: 24px;
+	font-style: italic;
+}
+
+.guiaAlergenos{
+	text-align: center;
+	margin-top: 25px;
+}
+
+.guiaAlergenos img{
+	max-width: 80px;
+}
+.num{
+	padding-left: 6px;
+}
+.nombre{
+	padding-left: 6px;
+}
